@@ -158,6 +158,7 @@ header .container h2 {
 }
 header .container h2 span {
   font-weight: 400;
+  color: #ff9fdb;
 }
 header .container nav {
   display: grid;
@@ -231,7 +232,6 @@ main section.banner .container h3 {
   }
 }
 main .menu-section {
-  width: 1600px;
   margin: 100px auto;
 }
 @media (max-width: 991px) {
