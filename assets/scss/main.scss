@@ -226,6 +226,12 @@ main {
         font-size: 72px;
         margin-bottom: 32px;
 
+        .hide-mob {
+          @media (max-width: 767px) {
+            display: none;
+          }
+        }
+
         span {
           color: #ff9fdb;
         }
@@ -314,9 +320,7 @@ main {
           @media (max-width: 991px) {
             flex-direction: column;
           }
-          @media (max-width: 767px) {
-            flex-direction: column;
-          }
+
           img {
             border-radius: 50%;
             max-width: 110px;
@@ -416,11 +420,5 @@ main {
         }
       }
     }
-  }
-}
-
-@media (max-width: 767px) {
-  .hide-mob {
-    display: none;
   }
 }

@@ -212,6 +212,11 @@ main section.banner .container h1 {
   font-size: 72px;
   margin-bottom: 32px;
 }
+@media (max-width: 767px) {
+  main section.banner .container h1 .hide-mob {
+    display: none;
+  }
+}
 main section.banner .container h1 span {
   color: #ff9fdb;
 }
@@ -303,11 +308,6 @@ main .menu-section .menus .menu-column .single-menu {
     flex-direction: column;
   }
 }
-@media (max-width: 767px) {
-  main .menu-section .menus .menu-column .single-menu {
-    flex-direction: column;
-  }
-}
 main .menu-section .menus .menu-column .single-menu img {
   border-radius: 50%;
   max-width: 110px;
@@ -395,10 +395,4 @@ main .contact .container form .form-grid .form-area {
 }
 main .contact .container form .right-align {
   text-align: right;
-}
-
-@media (max-width: 767px) {
-  .hide-mob {
-    display: none;
-  }
 }/*# sourceMappingURL=main.css.map */
